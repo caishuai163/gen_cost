@@ -1,0 +1,43 @@
+{
+  "title_template": "            第四批 逾期超过30天电池丢失 扣款通知单 \n\n{0}：\n\n从2023年2月15日，确认{5}逾期超过30天电池丢失{1}组，明细详见附件：电池明细。\n\n按照合同中的赔偿约定，应赔偿金额：3000元/组，现本着双方友好合作的原则，每组电池仅赔偿：1200元/组。\n\n扣款金额：1200元/组*{1}组={3}元。\n\n扣款方式：从{4}发放奖金开始，分{2}个月扣除,直至扣完为止。\n\n扣款完毕，此{1}组电池，按照详细编码，从此单位数据库中清除。",
+  "title_bound_from_day":"2023年4月份",
+  "table_row_find_day": "2023年3月9日找回",
+  "title_other_cost_from_day":"2024年1月份",
+
+  "cost": [
+    {
+      "file_name": "1.2+7月23年第一批次逾期丢失扣款-石峰更新.xlsx",
+      "row_title": "2023年 第一轮  清仓盘点丢失电池扣款：  ",
+      "row_table_title": "2023年  第一轮  A类经销商逾期丢失电池",
+      "sum_row_text": "23年第一轮清仓30天丢失",
+      "read_sheet_name": "打印给老板签字"
+    }
+  ],
+  "p2p":[
+    {
+      "file_month": "2023年12月份",
+      "file_name": "4.2023年12月份点对点推广奖励汇总表-合并版(3).xlsx",
+      "read_sheet_name": "Result 1",
+      "sum_row_text": "12月点对点",
+      "read_give_row":"实际奖励金额",
+      "read_cost_row":"实际罚款金额",
+      "read_cost_month_row":"扣款月份"
+    }
+  ],
+  "ab":[
+    {
+      "file_month": "2023年12月份",
+      "file_name": "12月业务员应得百分之七奖励统计A+B.xlsx",
+      "read_pre_sheet_name": "2023年8月及以前注册AB类推广员",
+      "read_after_sheet_name": "2023年9月及以后注册AB类推广员",
+      "read_bound_row": "业务员应得合计"
+    }
+  ],
+  "bound": {
+       "file_name": "4  新规则 1月份租金收入核算23年6月份自营奖金.xlsx",
+       "read_sheet_name": "打印给老板签字",
+       "start_column":"Q",
+       "end_column":"AH",
+       "bound_title": "3月份奖金："
+  }
+}
