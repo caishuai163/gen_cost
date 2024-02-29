@@ -19,7 +19,6 @@ json_data = {}
 
 def init():
     with open(file_url, 'r', encoding='utf-8') as f:
-
         data = json.load(f)
         json_data['data'] = data
 
@@ -63,6 +62,10 @@ def get_title_bound_from_day():
 
 def get_title_other_cost_from_day():
     return json_data['data']["title_other_cost_from_day"]
+
+
+def get_cost_base_file():
+    return json_data['data']["cost_base_file"]
 
 
 class ABFileConf:
@@ -140,5 +143,4 @@ def get_bound_file_conf():
 
 def get_bound_table_title_area():
     conf = get_bound_file_conf()
-    return conf.start_column+'2:'+conf.end_column+'3'
-
+    return conf.start_column + '2:' + conf.end_column + '3'

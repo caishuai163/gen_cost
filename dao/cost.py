@@ -82,11 +82,11 @@ where ct.user_id  in ("""
     return str_list
 
 
-def select_cost_list(user_id):
+def select_cost_list_title_data(user_id, file_name):
     conn = sqlite3.connect(DB_URL)
     execute = conn.cursor()
-    execute.execute("select * from cost_tb where user_id = ? order by code asc;",
-                    (user_id, ))
+    execute.execute("select * from cost_tb where user_id = ? and file_name = ? order by code asc;",
+                    (user_id, file_name))
     res_list = execute.fetchall()
     execute.close()
     cost_list = []
@@ -111,6 +111,8 @@ def select_by_user_and_file(user_id, file_name):
                     (user_id, file_name))
     res_one = execute.fetchone()
     execute.close()
+    if res_one is None:
+        return None
     if res_one[0] is None:
         return None
     e = CheckCost()

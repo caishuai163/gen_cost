@@ -75,7 +75,7 @@ def load_one_cost(file_conf):
 
 def get_region_title(one_user):
     region_company = one_user.dealer_name
-    cost_list = cost.select_cost_list(one_user.code)
+    cost_list = cost.select_cost_list_title_data(one_user.code, excel_conf.get_cost_base_file())
     if len(cost_list) == 0:
         print(one_user.true_name + "输出文件时生成第一行大标题失败")
     cost_item = cost_list[0]

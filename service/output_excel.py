@@ -77,6 +77,9 @@ def print_region_manager(one_user):
 
 
 def print_region_part(user_list):
+    dir_name = "./output/" + user_list[0].region + "-" + user_list[0].region_manager
+    if not os.path.exists(dir_name):
+        os.mkdir(dir_name)
     xlsx_file = openpyxl.workbook.Workbook()
     sheet = xlsx_file.active
 
