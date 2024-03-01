@@ -8,6 +8,7 @@ from config.excel_conf import DB_URL
 
 def init():
     print("init date")
+    end = datetime.now() + relativedelta(months=24)
     conn = sqlite3.connect(DB_URL)
     execute = conn.cursor()
     execute.execute("select max(date) from date_tb ;")
@@ -18,7 +19,7 @@ def init():
         start = datetime.fromisoformat(date_str)
     while True:
         start = start + relativedelta(months=1)
-        if start.timestamp() > datetime.now().timestamp():
+        if start.timestamp() > end.timestamp():
             break
         execute.execute("INSERT INTO date_tb (date_str,date) VALUES(?,?);",
                         (str(start.year) + "年" + str(start.month) + "月份", start))
