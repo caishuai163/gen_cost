@@ -18,7 +18,7 @@ def insert(user_id, month, give_rmb, cost_rmb, cost_month):
     execute = conn.cursor()
     if cost_month is not None:
         execute.execute("INSERT INTO p2p_tb (user_id, month_val, give_rmb, cost_rmb, cost_month) VALUES(?, ?, ?, ?, ?)",
-                        (user_id, month, give_rmb, cost_rmb, cost_month))
+                        (user_id, month, give_rmb, -cost_rmb, cost_month))
     else:
         execute.execute("INSERT INTO p2p_tb (user_id, month_val, give_rmb, cost_rmb) VALUES(?, ?, ?, ?);",
                         (user_id, month, give_rmb, cost_rmb))

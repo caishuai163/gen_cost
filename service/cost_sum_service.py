@@ -80,7 +80,7 @@ def print_person_sum(sheet, user_one, row_len, cur_row, date_list, start_pos):
 
 
 def print_person_p2p_cost(sheet, user_one, row_len, cur_row, date_list, file_one):
-    arr = [user_one.true_name, file_one.sum_row_text]
+    arr = [user_one.true_name, file_one.sum_row_text, None, None, None, None]
     p2p_cost_list = p2p_dao.select_cost_by_uid(user_one.code, file_one.file_month)
     detail_arr = p2p_service.get_cost_arr(date_list=date_list, cost_detail_list=p2p_cost_list)
     arr.extend(detail_arr)

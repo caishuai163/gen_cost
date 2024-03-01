@@ -30,7 +30,7 @@ class CheckCostDetail:
         self.rmb = None
 
 
-def insertCost(user_id, file_name, confirm_lost, avg_cost, cost_month, month_cost, find_count, confirm_after_find):
+def insertCost(user_id, file_name, confirm_lost, find_count, confirm_after_find, avg_cost, cost_month, month_cost):
     conn = sqlite3.connect(DB_URL)
     execute = conn.cursor()
     execute.execute("INSERT INTO cost_tb(user_id, file_name, confirm_lost, avg_cost, cost_month, "
