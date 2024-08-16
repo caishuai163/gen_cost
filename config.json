@@ -1,0 +1,343 @@
+{
+  "title_template": "            第四批 逾期超过30天电池丢失 扣款通知单 \n\n{0}：\n\n从2023年2月15日，确认{5}逾期超过30天电池丢失{1}组，明细详见附件：电池明细。\n\n按照合同中的赔偿约定，应赔偿金额：3000元/组，现本着双方友好合作的原则，每组电池仅赔偿：1200元/组。\n\n扣款金额：1200元/组*{1}组={3}元。\n\n扣款方式：从{4}发放奖金开始，分{2}个月扣除,直至扣完为止。\n\n扣款完毕，此{1}组电池，按照详细编码，从此单位数据库中清除。",
+  "title_bound_from_day": "2023年4月份",
+  "table_row_find_day": "24年1月22日找回",
+  "title_other_cost_from_day": "2024年3月份",
+  "cost_base_file": "2_2+1月22年第四批逾期丢失电池扣款完成.xlsx",
+  "cost": [
+    {
+      "file_name": "1_1+1月22年第一轮盘点丢失扣款.xlsx",
+      "row_title": "2022年 第一轮  清仓盘点丢失电池扣款：",
+      "row_table_title": "2022年  第一轮  A类经销商 盘点丢失电池",
+      "sum_row_text": "第一轮清仓盘点电池丢失",
+      "read_sheet_name": "盘点丢失电池扣款",
+      "true_name":"B",
+      "company":"D",
+      "work":"E",
+      "confirm_lost":"G",
+      "find_count":"H",
+      "confirm_after_find":"I",
+      "avg_cost":"R",
+      "cost_month":"S",
+      "month_cost":"T",
+      "month_start":"U"
+    },
+    {
+      "file_name": "1_2+1月22年第二轮盘点丢失扣款.xlsx",
+      "row_title": "2022年 第二轮  清仓盘点丢失电池扣款：",
+      "row_table_title": "2022年  第二轮  A类经销商 盘点丢失电池",
+      "sum_row_text": "第二轮清仓盘点电池丢失",
+      "read_sheet_name": "第二轮正式版",
+      "true_name":"B",
+      "company":"D",
+      "work":"E",
+      "confirm_lost":"G",
+      "find_count":"H",
+      "confirm_after_find":"I",
+      "avg_cost":"R",
+      "cost_month":"S",
+      "month_cost":"T",
+      "month_start":"U"
+    },
+    {
+      "file_name": "1_3+1月23年第三轮盘点丢失扣款 完成.xlsx",
+      "row_title": "2023年 第一轮  清仓盘点丢失电池扣款：",
+      "row_table_title": "2023年  第一轮  A类经销商 盘点丢失电池",
+      "sum_row_text": "第三轮清仓盘点电池丢失",
+      "read_sheet_name": "Sheet1",
+      "true_name":"B",
+      "company":"D",
+      "work":"E",
+      "confirm_lost":"G",
+      "find_count":"H",
+      "confirm_after_find":"I",
+      "avg_cost":"R",
+      "cost_month":"S",
+      "month_cost":"T",
+      "month_start":"U"
+    },
+    {
+      "file_name": "1_4+1月23年第四轮盘点丢失扣款 完成.xlsx",
+      "row_title": "2023年 第二轮  清仓盘点丢失电池扣款：",
+      "row_table_title": "2023年  第二轮  A类经销商 盘点丢失电池",
+      "sum_row_text": "第四轮清仓盘点电池丢失",
+      "read_sheet_name": "23年第二批 (2)",
+      "true_name":"B",
+      "company":"D",
+      "work":"E",
+      "confirm_lost":"G",
+      "find_count":"H",
+      "confirm_after_find":"I",
+      "avg_cost":"R",
+      "cost_month":"S",
+      "month_cost":"T",
+      "month_start":"U"
+    },
+    {
+      "file_name": "2_1+1月22年第三批逾期丢失电池扣款.xlsx",
+      "row_title": "2022年 第三批次  逾期30天清仓盘点丢失电池扣款： ",
+      "row_table_title": "2022年  第三批次 A类经销商 逾期30天清仓盘点丢失电池扣款",
+      "sum_row_text": "第三批次电池逾期30天丢失",
+      "read_sheet_name": "三批次逾期",
+      "true_name":"B",
+      "company":"D",
+      "work":"E",
+      "confirm_lost":"G",
+      "find_count":"H",
+      "confirm_after_find":"I",
+      "avg_cost":"R",
+      "cost_month":"S",
+      "month_cost":"T",
+      "month_start":"U"
+    },
+    {
+      "file_name": "2_2+1月22年第四批逾期丢失电池扣款完成.xlsx",
+      "row_title": " 2022年 第四批次  逾期30天清仓盘点丢失电池扣款：  ",
+      "row_table_title": "2022年  第四批次 A类经销商 逾期30天清仓盘点丢失电池扣款",
+      "sum_row_text": "第四批次电池逾期30天丢失",
+      "read_sheet_name": "第四批正式版",
+      "true_name":"B",
+      "company":"D",
+      "work":"E",
+      "confirm_lost":"G",
+      "find_count":"H",
+      "confirm_after_find":"I",
+      "avg_cost":"R",
+      "cost_month":"S",
+      "month_cost":"T",
+      "month_start":"U"
+    },
+    {
+      "file_name": "2_3+1月23年第五批逾期丢失电池扣款完成.xlsx",
+      "row_title": " 2023年 第五批次  逾期30天清仓盘点丢失电池扣款：  ",
+      "row_table_title": "2023年  第五批次 A类经销商 逾期30天清仓盘点丢失电池扣款",
+      "sum_row_text": "第五批次电池逾期30天丢失",
+      "read_sheet_name": "打印给老板签字",
+      "true_name":"B",
+      "company":"D",
+      "work":"E",
+      "confirm_lost":"G",
+      "find_count":"H",
+      "confirm_after_find":"I",
+      "avg_cost":"R",
+      "cost_month":"S",
+      "month_cost":"T",
+      "month_start":"U"
+    },
+    {
+      "file_name": "2_4+1月23年第六批逾期丢失电池扣款.xlsx",
+      "row_title": " 2023年 第六批次  逾期30天清仓盘点丢失电池扣款：  ",
+      "row_table_title": "2023年  第六批次 A类经销商 逾期30天清仓盘点丢失电池扣款",
+      "sum_row_text": "第六批次电池逾期30天丢失",
+      "read_sheet_name": "23年第二批 （正式）",
+      "true_name":"B",
+      "company":"E",
+      "work":"F",
+      "confirm_lost":"H",
+      "find_count":"I",
+      "confirm_after_find":"J",
+      "avg_cost":"R",
+      "cost_month":"S",
+      "month_cost":"T",
+      "month_start":"U"
+    },
+    {
+      "file_name": "2024年6月28日正式2_5+1月24年第七批逾期丢失电池扣款表li8.0.xlsx",
+      "row_title": " 2023年 第七批次  逾期30天清仓盘点丢失电池扣款：  ",
+      "row_table_title": "2023年  第七批次 A类经销商 逾期30天清仓盘点丢失电池扣款",
+      "sum_row_text": "第七批次电池逾期30天丢失",
+      "read_sheet_name": "打印正式A类经销商  第七批逾期（2023年8月16日",
+      "true_name":"E",
+      "company":"D",
+      "work":"F",
+      "confirm_lost":"L",
+      "find_count":"M",
+      "confirm_after_find":"Q",
+      "avg_cost":"AI",
+      "cost_month":"AJ",
+      "month_cost":"AK",
+      "month_start":"AL"
+    }
+  ],
+  "p2p": [
+    {
+      "file_month": "2023年9月份",
+      "file_name": "1+1月份 2023年9月份点对点推广奖励汇总表（已扣完）.xlsx",
+      "read_sheet_name": "2023年9月份 点对点推广奖励汇总表（9月18日至9月30日",
+      "sum_row_text": "9月点对点",
+      "read_give_row": "实际奖励金额",
+      "read_cost_row": "实际罚款金额",
+      "read_cost_month_row": "奖励月份"
+    },
+    {
+      "file_month": "2023年10月份",
+      "file_name": "2+1月份 2023年10月份点对点推广奖励汇总表.xlsx",
+      "read_sheet_name": "2023年10月份 点对点推广奖励汇总表",
+      "sum_row_text": "10月点对点",
+      "read_give_row": "实际奖励金额",
+      "read_cost_row": "实际罚款金额",
+      "read_cost_month_row": "扣款月份"
+    },
+    {
+      "file_month": "2023年11月份",
+      "file_name": "3+1月份 2023年11月份点对点推广奖励汇总表.xlsx",
+      "read_sheet_name": "2023年11月份 点对点推广奖励汇总表",
+      "sum_row_text": "11月点对点",
+      "read_give_row": "实际奖励金额",
+      "read_cost_row": "实际罚款金额",
+      "read_cost_month_row": "扣款月份"
+    },
+    {
+      "file_month": "2023年12月份",
+      "file_name": "4+1月份 2023年12月份点对点推广奖励汇总表.xlsx",
+      "read_sheet_name": "Result 1",
+      "sum_row_text": "12月点对点",
+      "read_give_row": "实际奖励金额",
+      "read_cost_row": "实际罚款金额",
+      "read_cost_month_row": "扣款月份"
+    },
+    {
+      "file_month": "2024年1月份",
+      "file_name": "5+1月份 2024年1月份点对点推广奖励汇总表.xlsx",
+      "read_sheet_name": "Sheet1",
+      "sum_row_text": "24年1月点对点",
+      "read_give_row": "实际奖励金额",
+      "read_cost_row": "实际罚款金额",
+      "read_cost_month_row": "扣款月份"
+    },
+    {
+      "file_month": "2024年2月份",
+      "file_name": "6+1月份 2024年2月份点对点推广奖励汇总表.xlsx",
+      "read_sheet_name": "Sheet0",
+      "sum_row_text": "24年2月点对点",
+      "read_give_row": "实际奖励金额",
+      "read_cost_row": "实际罚款金额",
+      "read_cost_month_row": "扣款月份"
+    },
+    {
+      "file_month": "2024年3月份",
+      "file_name": "7+1月份 2024年3月份点对点推广奖励汇总表.xlsx",
+      "read_sheet_name": "Sheet0",
+      "sum_row_text": "24年3月点对点",
+      "read_give_row": "实际奖励金额",
+      "read_cost_row": "实际罚款金额",
+      "read_cost_month_row": "扣款月份"
+    },
+    {
+      "file_month": "2024年4月份",
+      "file_name": "8+1月份 2024年4月份点对点推广奖励汇总表.xlsx",
+      "read_sheet_name": "Sheet3",
+      "sum_row_text": "24年4月点对点",
+      "read_give_row": "实际奖励金额",
+      "read_cost_row": "实际罚款金额",
+      "read_cost_month_row": "扣款月份"
+    },
+    {
+      "file_month": "2024年5月份",
+      "file_name": "9+1月份 2024年5月份点对点推广奖励汇总表.xlsx",
+      "read_sheet_name": "Sheet0",
+      "sum_row_text": "24年5月点对点",
+      "read_give_row": "实际奖励金额",
+      "read_cost_row": "实际罚款金额",
+      "read_cost_month_row": "扣款日期"
+    },
+    {
+      "file_month": "2024年5月份",
+      "file_name": "10+1月份2024年6月份点对点奖励-正式老板新要求点对点汇总版、运维版（24-1）修正版.xlsx",
+      "read_sheet_name": "汇总版 (2)",
+      "sum_row_text": "24年6月点对点",
+      "read_give_row": "实际奖励金额",
+      "read_cost_row": "实际罚款金额",
+      "read_cost_month_row": "扣款日期"
+    }
+  ],
+  "ab": [
+    {
+      "file_month": "2024年6月份",
+      "file_name": "10+1月份2024年6月AB类推广员业务员应得百分之七奖励统计.xlsx",
+      "read_pre_sheet_name": "pre",
+      "read_after_sheet_name": "Sheet1 (2)",
+      "read_bound_row": "业务员应得合计",
+      "read_region_row": "大区",
+      "read_part_row": "分区",
+      "read_name_row": "业务员",
+      "read_work_row": "岗位名称",
+      "read_start_row": 2
+    }
+  ],
+  "c": [
+    {
+      "file_month": "2024年4月份",
+      "file_name": "C类推广员百分之7推广奖励.xlsx",
+      "read_sheet_name": "2024年05月C类推广员7%推广奖励",
+      "read_bound_row": "业务员应得金额合计",
+      "read_region_row": "大区",
+      "read_part_row": "分区",
+      "read_name_row": "业务员姓名",
+      "read_work_row": "岗位名称",
+      "read_start_row": 2
+    }
+  ],
+  "spec": [
+    {
+      "file_month": "2024年2月份",
+      "file_name": "24年1月业务员名下电池罚款2.1.xlsx",
+      "read_sheet_name": "2月业务员名下电池扣款（已完成）",
+      "sum_row_text": "2月业务员名下电池扣款",
+      "region_row": "城市",
+      "name_row": "姓名",
+      "read_cost_row": "罚款金额",
+      "read_cost_month_row": "扣除月份"
+    },
+    {
+      "file_month": "2024年3月份",
+      "file_name": "24年1月业务员名下电池罚款2.1.xlsx",
+      "read_sheet_name": "3月业务员名下电池扣款（已完成）",
+      "sum_row_text": "3月业务员名下电池扣款",
+      "region_row": "城市",
+      "name_row": "姓名",
+      "read_cost_row": "罚款金额",
+      "read_cost_month_row": "扣除月份"
+    },
+    {
+      "file_month": "2024年4月份",
+      "file_name": "24年1月业务员名下电池罚款2.1.xlsx",
+      "read_sheet_name": "4月业务员名下电池扣款（已完成）",
+      "sum_row_text": "4月业务员名下电池扣款",
+      "region_row": "城市",
+      "name_row": "姓名",
+      "read_cost_row": "罚款金额",
+      "read_cost_month_row": "扣除月份"
+    },
+    {
+      "file_month": "2024年5月份",
+      "file_name": "24年1月业务员名下电池罚款2.1.xlsx",
+      "read_sheet_name": "5月业务员名下电池扣款（已完成）",
+      "sum_row_text": "5月业务员名下电池扣款",
+      "region_row": "城市",
+      "name_row": "姓名",
+      "read_cost_row": "罚款金额",
+      "read_cost_month_row": "扣除月份"
+    },
+    {
+      "file_month": "2024年6月份",
+      "file_name": "24年1月业务员名下电池罚款2.1.xlsx",
+      "read_sheet_name": "6月业务员名下电池扣款",
+      "sum_row_text": "6月业务员名下电池扣款",
+      "region_row": "城市",
+      "name_row": "姓名",
+      "read_cost_row": "罚款金额",
+      "read_cost_month_row": "扣除月份"
+    }
+  ],
+  "bound": {
+    "file_name": "2024年1月份奖金发放明细表-V5.2.xlsx",
+    "read_sheet_name": "2024年1月自营奖金表",
+    "start_column": "U",
+    "end_column": "AZ",
+    "bound_title": "1月份奖金：",
+    "true_name_column": "F",
+    "company_column": "E",
+    "work_column": "G"
+  }
+}
